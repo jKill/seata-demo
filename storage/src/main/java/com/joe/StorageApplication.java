@@ -53,4 +53,8 @@ public class StorageApplication {
 		return sqlSessionFactoryBean.getObject();
 	}
 
+	@Bean
+	public PlatformTransactionManager transactionManager(DataSourceProxy dataSourceProxy) {
+		return new DataSourceTransactionManager(dataSourceProxy);
+	}
 }
