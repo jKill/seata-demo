@@ -21,7 +21,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<spring.feign.version>1.4.6.RELEASE</spring.feign.version>
-		<spring-framework.version>5.1.3.RELEASE</spring-framework.version>
+		<spring-framework.version>5.2.22.RELEASE</spring-framework.version>
 		<spring-cloud-context.version>2.1.1.RELEASE</spring-cloud-context.version>
 		<skipTests>true</skipTests>
 	</properties>
